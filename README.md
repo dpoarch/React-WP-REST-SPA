@@ -1,12 +1,24 @@
-# Getting Started with Create React App
+## React Wordpress CMS SPA
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Setup
 
-In the project directory, you can run:
+Follow the instructions below to setup the React-Wordpress
 
-### `npm start`
+1. Run Apache and Setup the following wordpress.
+2. Configure Wordpress Database username, email and password.
+3. Sign as `Admin` on wordpress and go to Tools > Import
+4. Click `Install now` on Wordpress and import `themeunittestdata.wordpress.xml`
+5. Run `npm install` to download required packages.
+6. replace the wordpressurl on `src/Posts.js` with your wordpress URL
+```js
+const posts = useFetch('http://localhost/wordpress/wp-json/wp/v2/posts');
+```
+7. Run `npm run start` to start React-SPA frontend
+
+
+### Available Scripts
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
