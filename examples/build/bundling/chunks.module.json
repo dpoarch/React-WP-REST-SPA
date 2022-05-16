@@ -1,0 +1,75 @@
+{
+  "errors": [],
+  "warnings": [],
+  "hash": "f72c9c48415d45a476b1",
+  "publicPath": "",
+  "outputPath": "C:\\Users\\nevor\\OneDrive\\Desktop\\frontity\\build\\static",
+  "assetsByChunkName": {
+    "frontity-article-cms": "frontity-article-cms.module.js",
+    "list": "list.module.js"
+  },
+  "assets": [
+    {
+      "name": "frontity-article-cms.module.js",
+      "size": 6891154,
+      "chunks": [
+        "frontity-article-cms"
+      ],
+      "chunkNames": [
+        "frontity-article-cms"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 47337,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "namedChunkGroups": {
+    "frontity-article-cms": {
+      "chunks": [
+        "frontity-article-cms"
+      ],
+      "assets": [
+        "frontity-article-cms.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "frontity-article-cms",
+      "files": [
+        "frontity-article-cms.module.js"
+      ]
+    },
+    {
+      "id": "list",
+      "files": [
+        "list.module.js"
+      ]
+    }
+  ]
+}
